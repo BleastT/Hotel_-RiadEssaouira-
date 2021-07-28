@@ -1,0 +1,333 @@
+@font-face {
+    font-family: Lulo-Clean-One;
+    src: url("../fonts/Lulo/Lulo\ Clean\ One\ Bold.otf");
+}
+@font-face {
+    font-family: Sarina;
+    src: url("../fonts/Sarina/Sarina-Regular.ttf");
+}
+@font-face {
+    font-family: Muzkta-Bold;
+    src: url("../fonts/Muzkta/Mukta-ExtraBold.ttf");
+}
+@font-face {
+    font-family: Muzkta-Light;
+    src: url("../fonts/Muzkta/Mukta-ExtraLight.ttf");
+}
+@font-face {
+    font-family: Spinnaker;
+    src: url("../fonts/Spinnaker/Spinnaker-Regular.ttf");
+}
+@font-face {
+    font-family: Alex;
+    src: url("../fonts/Alex/AlexBrush-Regular.ttf");
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    background-color: rgb(234, 249, 255);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* HEADER */
+Header{
+    padding: 40px 25px 20px 20px;
+    height: auto;
+    background-size: 100%;
+    text-align: center;
+    background-image: url("../images/buildings.jpg");
+    flex-wrap: wrap;
+}
+Header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+Header li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+Header a{
+    text-decoration: none;
+}
+
+/* NAVBAR STYLING */
+#nav-title{
+    margin-right: 20%;
+    font-family: 'Sarina';
+    font-size: 40px;
+}
+#nav-title a, #nav-booknow a, .nav-link a{
+    color: black;
+}
+#nav-booknow{
+    margin-left: 20%;
+    padding: 10px 20px;
+    background-image: linear-gradient(#005ca7, #008bfc);
+    border-radius: 5px;
+    font-family: Lulo-Clean-One;
+}
+
+#nav-booknow:hover{
+    background-image: linear-gradient(#617e75, #9CC6B9);
+}
+#nav-booknow a:hover{
+    color: white;
+}
+
+.nav-link{
+    font-family: Lulo-Clean-One;
+}
+
+.nav-link a:active{
+    color: #20CE88;
+}
+.nav-link a:hover{
+    color: #20CE88;
+}
+
+/* SECTION */
+
+#about-us{
+    background-color: rgb(234, 249, 255);
+    height: auto;
+    margin: 0px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section p{
+    padding: 0px -10px;
+    font-family: Muzkta-Light;
+}
+
+section h2{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: Spinnaker;
+    text-transform: uppercase;
+} 
+section li{
+    text-decoration: none;
+    width: 170px;
+}
+
+section img{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media{
+    background-color: rgb(179, 204, 212);
+    text-align: center;
+}
+
+.social-media li{
+    display: inline-block;
+    width: 40px;
+}
+
+.social-media li img{
+    width: 40px;
+    height: 40px;
+}
+
+/* CONTACT */
+
+.contact{
+    padding-top: 5px;
+    background-color: rgb(234, 249, 255);
+    height: 150px;
+    text-align: center;
+}
+
+
+
+.contact #Titles li{
+    display: inline-block;
+    width: 200px;
+    font-family: Muzkta-Light;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact #info li{
+    padding-top: 15px;
+    display: inline-block;
+    width: 200px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: Muzkta-Light;
+}
+
+/* IMAGES SECTION */
+
+
+#image-section{
+    height: 500px;
+    background-image: url("../images/contact us.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+
+#image-section h3{
+    text-transform: uppercase;
+    font-family: Lulo-Clean-One;
+    font-size: 71px;
+    color: white;
+    padding-top: 8%;
+}
+
+
+/* BOOK NOW BAR */
+#rooms{
+    margin: auto;
+    height: fit-content;
+    width: 70%;
+    padding: 10px;
+    padding-bottom: 300px;
+}
+
+#rooms #data-entry{
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#rooms #data-entry li{
+    color: white;
+    display: inline-block;
+    font-family: Lulo-Clean-One;
+    padding: 9px 15px 9px 9px;
+    font-size: 12px;
+    border: solid;
+    margin: 0px;
+    border-width: 0px 1px 0px 0px;
+    border-color: #20CE88;
+}
+
+#rooms input{
+    background-color: #20CE88;
+    color: black;
+    font-size: 15px;
+    font-family: Lulo-Clean-One;
+    padding: 9px 17px 9px 17px;
+    border: 0;
+}
+
+#rooms input:hover{
+    cursor: pointer;
+}
+
+.line{
+    background-color: black;
+    height: 1px;
+    width: 990px;
+    margin-bottom: 30px;
+}
+
+/* ROOMS */
+
+#room img{
+    height: 400px;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+#room ul{
+    padding: 50px 0px 0px 45px;
+    margin: 0px;
+}
+
+.Header-part{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#room li{
+    list-style-type: none;
+}
+
+#room #title{
+    font-family: Lulo-Clean-One;
+    width: 250px;
+}
+
+#room #price, #room #from{
+    font-family: Alex;
+    font-size: 40px;
+}
+
+#pricing{
+    width: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 0 0 0 1px;
+}
+
+#room #from{
+    font-size: 20px;
+}
+
+
+
+/* MORE INFO */
+
+
+div #info, div #properties, div #amenities, div #terms{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    align-items:baseline;
+}
+
+
+div #info h4, div #properties h4, div #amenities h4, div #terms h4{
+    width: 300px;
+    font-family: Lulo-Clean-One;
+    font-size: 15px;
+}
+
+div #info p, div #properties p, div #terms a{
+    width: 500px;
+    font-family: Lulo-Clean-One;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+div #terms a{
+    width: fit-content;
+    border: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+}
+
+div #amenities li{
+    font-family: Lulo-Clean-One;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* PROPERTIES */
+

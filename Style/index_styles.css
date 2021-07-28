@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Lulo-Clean-One;
+    src: url("../fonts/Lulo/Lulo\ Clean\ One\ Bold.otf");
+}
+@font-face {
+    font-family: Sarina;
+    src: url("../fonts/Sarina/Sarina-Regular.ttf");
+}
+@font-face {
+    font-family: Muzkta-Bold;
+    src: url("../fonts/Muzkta/Mukta-ExtraBold.ttf");
+}
+@font-face {
+    font-family: Muzkta-Light;
+    src: url("../fonts/Muzkta/Mukta-ExtraLight.ttf");
+}
+@font-face {
+    font-family: Spinnaker;
+    src: url("../fonts/Spinnaker/Spinnaker-Regular.ttf");
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* HEADER */
+Header{
+    padding: 40px 25px 20px 20px;
+    height: auto;
+    background-size: 100%;
+    text-align: center;
+    background-image: url("../images/Beach.jpeg");
+    flex-wrap: wrap;
+}
+Header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+Header li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+Header a{
+    text-decoration: none;
+}
+
+/* NAVBAR STYLING */
+#nav-title{
+    margin-right: 20%;
+    font-family: 'Sarina';
+    font-size: 40px;
+}
+#nav-title a, #nav-booknow a, .nav-link a{
+    color: black;
+}
+#nav-booknow{
+    margin-left: 20%;
+    padding: 10px 20px;
+    background-image: linear-gradient(#005ca7, #008bfc);
+    border-radius: 5px;
+    font-family: Lulo-Clean-One;
+}
+
+#nav-booknow:hover{
+    background-image: linear-gradient(#617e75, #9CC6B9);
+}
+#nav-booknow a:hover{
+    color: white;
+}
+
+.nav-link{
+    font-family: Lulo-Clean-One;
+}
+
+.nav-link a:active{
+    color: #20CE88;
+}
+.nav-link a:hover{
+    color: #20CE88;
+}
+
+/* REST OF THE HEADER */
+
+
+#slogan{
+    align-content: center;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+#first-text{
+    font-size: 55px;
+    font-family: Muzkta-Light;
+    color: white;
+    letter-spacing: 5px;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+#second-text{
+    font-family: Muzkta-Bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+
+
+/* SECTION */
+section{
+    background-color: rgb(234, 249, 255);
+    height: auto;
+    margin: 0px;
+    margin-bottom: 7px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+section p{
+    padding: 0px -10px;
+    font-family: Muzkta-Light;
+}
+
+section h2{
+    margin-top: 60px;
+    font-size: 17px;
+    font-family: Spinnaker;
+    text-transform: uppercase;
+} 
+
+section ul{
+    list-style-type: none;
+}
+
+section li{
+    text-decoration: none;
+    display: inline-block;
+    width: 170px;
+}
+
+section img{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+/* IMAGES SECTION */
+
+
+#image-section{
+    height: 600px;
+    background-image: url("../images/plants.jpg");
+}
+
+
+
+/* Informations */
+
+.town-info{
+    height: auto;
+}
+
+.town-info ul li{
+    margin-top: 20px;
+    margin-right: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 7px;
+    box-shadow: black 0 0 3px;
+    height: 400px;
+    width: 300px;
+}
+
+.town-info h1{
+    font-family: Spinnaker;
+    font-size: 17px;
+}
+.town-info p{
+    margin-top: 20px;
+    font-family: Muzkta-Light;
+    font-size: 14px;
+}
+
+.town-info img{
+    width: 280px;
+    height: 220px;
+    border-radius: 7px;
+    padding:0px;
+    margin-top: 7px;
+}
+
+
+/* SOCIAL MEDIA */
+
+.social-media{
+    flex-wrap: wrap;
+    background-color: rgb(179, 204, 212);
+    text-align: center;
+}
+
+.social-media li{
+    display: inline-block;
+    width: 40px;
+}
+
+.social-media li img{
+    width: 40px;
+    height: 40px;
+}
+
+/* CONTACT */
+
+.contact{
+    padding-top: 5px;
+    background-color: rgb(234, 249, 255);
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+
+
+.contact #Titles li{
+    display: inline-block;
+    width: 200px;
+    font-family: Muzkta-Light;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact #info li{
+    padding-top: 15px;
+    display: inline-block;
+    width: 200px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: Muzkta-Light;
+}
+

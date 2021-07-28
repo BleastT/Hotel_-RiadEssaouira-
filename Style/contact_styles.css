@@ -1,0 +1,268 @@
+@font-face {
+    font-family: Lulo-Clean-One;
+    src: url("../fonts/Lulo/Lulo\ Clean\ One\ Bold.otf");
+}
+@font-face {
+    font-family: Sarina;
+    src: url("../fonts/Sarina/Sarina-Regular.ttf");
+}
+@font-face {
+    font-family: Muzkta-Bold;
+    src: url("../fonts/Muzkta/Mukta-ExtraBold.ttf");
+}
+@font-face {
+    font-family: Muzkta-Light;
+    src: url("../fonts/Muzkta/Mukta-ExtraLight.ttf");
+}
+@font-face {
+    font-family: Spinnaker;
+    src: url("../fonts/Spinnaker/Spinnaker-Regular.ttf");
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* HEADER */
+Header{
+    padding: 40px 25px 20px 20px;
+    height: auto;
+    background-size: 100%;
+    text-align: center;
+    background-image: url("../images/buildings.jpg");
+    flex-wrap: wrap;
+}
+Header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+Header li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+Header a{
+    text-decoration: none;
+}
+
+/* NAVBAR STYLING */
+#nav-title{
+    margin-right: 20%;
+    font-family: 'Sarina';
+    font-size: 40px;
+}
+#nav-title a, #nav-booknow a, .nav-link a{
+    color: black;
+}
+#nav-booknow{
+    margin-left: 20%;
+    padding: 10px 20px;
+    background-image: linear-gradient(#005ca7, #008bfc);
+    border-radius: 5px;
+    font-family: Lulo-Clean-One;
+}
+
+#nav-booknow:hover{
+    background-image: linear-gradient(#617e75, #9CC6B9);
+}
+#nav-booknow a:hover{
+    color: white;
+}
+
+.nav-link{
+    font-family: Lulo-Clean-One;
+}
+
+.nav-link a:active{
+    color: #20CE88;
+}
+.nav-link a:hover{
+    color: #20CE88;
+}
+
+/* SECTION */
+#contact-form-location{
+    background-color: rgb(234, 249, 255);
+    height: auto;
+    width: 100%;
+    margin-bottom: 7px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-us{
+    background-color: rgb(234, 249, 255);
+    height: auto;
+    margin: 0px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section p{
+    padding: 0px -10px;
+    font-family: Muzkta-Light;
+}
+
+section h2{
+    margin-top: 60px;
+    font-size: 17px;
+    font-family: Spinnaker;
+    text-transform: uppercase;
+} 
+
+section ul{
+    list-style-type: none;
+}
+
+section li{
+    text-decoration: none;
+    display: inline-block;
+    width: 170px;
+}
+
+section img{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media{
+    background-color: rgb(179, 204, 212);
+    text-align: center;
+}
+
+.social-media li{
+    display: inline-block;
+    width: 40px;
+}
+
+.social-media li img{
+    width: 40px;
+    height: 40px;
+}
+
+/* CONTACT */
+
+.contact{
+    padding-top: 5px;
+    background-color: rgb(234, 249, 255);
+    height: 150px;
+    text-align: center;
+}
+
+
+
+.contact #Titles li{
+    display: inline-block;
+    width: 200px;
+    font-family: Muzkta-Light;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact #info li{
+    padding-top: 15px;
+    display: inline-block;
+    width: 200px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: Muzkta-Light;
+}
+
+/* IMAGES SECTION */
+
+
+#image-section{
+    height: 500px;
+    background-image: url("../images/contact us.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+
+#image-section h3{
+    text-transform: uppercase;
+    font-family: Lulo-Clean-One;
+    font-size: 71px;
+    color: white;
+    padding-top: 8%;
+}
+
+/* FORM */
+.user-input{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+}
+
+.user-input ul{
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.user-input li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.user-input .input-box input, .message textarea{
+    text-decoration: none;
+    background-color: rgb(255, 236, 254);
+    border-radius: 7px 7px 0px 0px;
+    border-color: rgb(0, 17, 255);
+    border-width: 0px 0px 3px 0px;
+    color: rgb(0, 17, 255);
+    height: 25px;
+    width: 200px;
+    font-family: Lulo-Clean-One;
+    font-size: 10px;
+    padding-left: 9px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 17, 255);
+    font-family: Lulo-Clean-One;
+    font-size: 10px;
+    padding-left: 9px;
+    opacity: 1; /* Firefox */
+}
+
+
+.message textarea{
+    padding-top: 7px;
+    width: 420px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+
+.button{
+    margin-left: 350px;
+}
+
+.button input{
+    font-family: Lulo-Clean-One;
+    background-color: rgb(0, 17, 255);
+    color: white;
+    border-radius: 30px;
+    padding: 5px 20px 7px 20px;
+}
+.button input:hover{
+    color: rgb(255, 236, 254);
+    cursor: pointer;
+}
